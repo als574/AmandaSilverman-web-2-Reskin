@@ -1,12 +1,34 @@
-.flavors{
-display:grid;
-grid-template-columns:" banana amaretto pineapple chocolate bourbon";
+.flavorscolumn-grid {
+    display:grid;
 
-;
+    @include md{
+        grid-template-columns: 50% 50%;
+        .banana{
+            img{
+                width: 100%;
+            }
+        }
+        .amaretto{
+            img{
+                width: 100%;
+            }
+        }
+        .pineapple{
+            img{
+                width: 100%;
+            }
+        }
+        .chocolate{
+            img{
+                width: 100%;
+            }
+        }
+        .bourbon{
+            img{
+                width: 100%;
+            }
+        }
+    }
 
-
-
-
-
-    
+  
 }

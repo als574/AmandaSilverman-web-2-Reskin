@@ -407,7 +407,25 @@ header .content .search {
     Footer
 ============= */
 footer {
-  background-color: #979797;
+  background-color: 979797;
+  /* h3{
+      font-family: 'Leckerli One';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+         color: #000000;     
+  }
+
+  p{
+      font-family: 'Leckerli One';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+
+  }
+  */
 }
 footer .locations {
   display: grid;
@@ -431,6 +449,7 @@ footer .social .follow {
 footer .social .social-links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 17px;
 }
 
 .hero img {
@@ -479,54 +498,20 @@ footer .social .social-links {
   /* color: #FFFFFF; */
 }
 
-.divider-grid .visitcontainer .icecream {
-  width: 85px;
-  height: 85px;
-  border-radius: 50%;
-  border: 3.81px solid #F8F6E9;
+.visit h1 {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
 }
 
-.directionscontainer .directioncontent .map {
-  width: 85px;
-  height: 85px;
-  border-radius: 50%;
-  border: 3.81px solid #F8F6E9;
-}
-
-.flavorscolumn-grid {
+/* directions */
+.flavors {
   display: grid;
 }
 @media (min-width: 768px) {
-  .flavorscolumn-grid {
+  .flavors {
     grid-template-columns: 50% 50%;
   }
-  .flavorscolumn-grid .banana img {
-    width: 100%;
-  }
-  .flavorscolumn-grid .amaretto img {
-    width: 100%;
-  }
-  .flavorscolumn-grid .pineapple img {
-    width: 100%;
-  }
-  .flavorscolumn-grid .chocolate img {
-    width: 100%;
-  }
-  .flavorscolumn-grid .bourbon img {
-    width: 100%;
-  }
-}
-
-.herocontain {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-.herocontain .hero2 img {
-  width: 100%;
-}
-.herocontain .sodahero img {
-  width: 100%;
-}
-.herocontain .hero3 img {
-  width: 100%;
 }

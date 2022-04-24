@@ -1,39 +1,20 @@
-.visit{
-
-.icecream{
-    position: absolute;
-width: 86.16px;
-height: 85px;
-left: 219.57px;
-top: 586px;
-
-}
-h1{
-    font-family: 'Leckerli One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 25px;   
-}
-
-}
-
-/* directions */ 
-
-.directions{
-    h1{
-        position: absolute;
-        width: 86.16px;
-        height: 85px;
-        left: 219.57px;
-        top: 586px; 
+.divider-grid{
+    .visitcontainer{
+        .icecream{
+            width: 85px;
+            height: 85px; 
+            border-radius: 50%;
+            border: 3.81px solid #F8F6E9 ;
+        }
     }
-    .map{
-        position: absolute;
-width: 86.16px;
-height: 85px;
-left: 219.57px;
-top: 720px;
-
+}
+.directionscontainer{
+    .directioncontent{
+        .map{
+            width: 85px;
+            height: 85px; 
+            border-radius: 50%;
+            border: 3.81px solid #F8F6E9;
+        }
     }
 }

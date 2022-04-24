@@ -2,26 +2,7 @@
     Footer
 ============= */
 footer{
-background-color:979797;
-
-/* h3{
-    font-family: 'Leckerli One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-       color: #000000;     
-}
-
-p{
-    font-family: 'Leckerli One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-       
-}
-*/
+background-color:rgba(151, 151, 151, 1) ;
 .locations{
 display: grid;
 grid-template-columns:"flagship pennslanding fairmount";
@@ -44,10 +25,12 @@ line-height: 27px;
     font-size: 20px;
     line-height: 27px;  
    } 
-   display: grid;
-grid-template-columns:"1 fr";
-grid-template-areas:"youtube twitter insta facebook";
-gap: 17px;
+
+    .social-links{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
 }
 
 }
