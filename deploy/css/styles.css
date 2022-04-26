@@ -516,6 +516,11 @@ footer .social .social-links {
     width: 100%;
   }
 }
+@media (min-width: 992px) {
+  .flavorscolumn-grid {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+  }
+}
 
 .herocontain {
   display: grid;
