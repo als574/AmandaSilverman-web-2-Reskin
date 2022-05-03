@@ -364,6 +364,154 @@ template {
 /* =============
     Typography
 ============= */
+::placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.menuh2 .historyh2 {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  color: white;
+}
+
+.menup .historyp {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+}
+
+.nxtvisit .directions {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  color: black;
+}
+
+button {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: black;
+}
+
+h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #637275;
+}
+
+/* flavors------*/
+.fl1 {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
+}
+
+.fl2 {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
+}
+
+.fl3 {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
+}
+
+.fl4 {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
+}
+
+.fl5 {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
+  color: #000000;
+}
+
+p.flavorscolumn-grid {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+h2.locations {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+h3 {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+p.locations {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.newsletter {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.follow {
+  font-family: "Leckerli One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
 /* =============
     Buttons
 ============= */
@@ -392,7 +540,7 @@ textarea {
     Header
 ============= */
 header {
-  background: color E 5E 5E 5px;
+  background-color: #979797;
 }
 header .content {
   display: grid;
@@ -401,6 +549,10 @@ header .content {
 header .content .search {
   size: 43.6px 34px;
   background: color D 2A 2D;
+}
+
+button.search {
+  background-color: #D02A2D;
 }
 
 /* =============

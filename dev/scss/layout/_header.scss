@@ -2,7 +2,7 @@
     Header
 ============= */
 header{
-     background: color E 5E 5E 5px;
+     background-color: rgba(151, 151, 151, 1) ;
     .content{
         display:grid;
         grid-template-columns: 50% 50% ;
@@ -12,4 +12,8 @@ header{
        }
         
     }
+}
+
+button.search{
+    background-color:#D02A2D ;
 }
