@@ -2,11 +2,13 @@
     Footer
 ============= */
 footer{
+    
 background-color:rgba(151, 151, 151, 1) ;
 .locations{
 display: grid;
 grid-template-columns:"flagship pennslanding fairmount";
 gap:5px;
+margin: none;
 
 }
  
@@ -27,10 +29,13 @@ line-height: 27px;
    } 
 
     .social-links{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        display: flex;
+        margin:none;
 
     }
 }
-
+@include md{
+    grid-template-columns: 50% 50%; 
+        
+}
 }

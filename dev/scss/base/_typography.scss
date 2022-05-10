@@ -1,6 +1,18 @@
 /* =============
     Typography
 ============= */
+body{
+    font-family: 'Leckerli One';
+    margin: 0px;
+}
+input{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+}
 ::placeholder{
     font-family: 'Open Sans';
 font-style: normal;
@@ -44,6 +56,8 @@ font-weight: 400;
 font-size: 14px;
 line-height: 20px;
 color: black; 
+/*background-color: $lightred;
+border: 0px; */
 }
 
 h4{
@@ -56,7 +70,7 @@ h4{
     color: #637275; 
 }
 /* flavors------*/
-.fl1{
+.fl1, .fl2, .fl3, .fl4, .fl5{
     font-family: 'Leckerli One';
 font-style: normal;
 font-weight: 400;
@@ -64,38 +78,6 @@ font-size: 27px;
 line-height: 30px;
 }
 
-.fl2{
-    font-family: 'Leckerli One';
-font-style: normal;
-font-weight: 400;
-font-size: 27px;
-line-height: 30px;
-}
-
-.fl3{
-    font-family: 'Leckerli One';
-font-style: normal;
-font-weight: 400;
-font-size: 27px;
-line-height: 30px;
-}
-
-.fl4{
-    font-family: 'Leckerli One';
-font-style: normal;
-font-weight: 400;
-font-size: 27px;
-line-height: 30px;
-}
-
-.fl5{
-    font-family: 'Leckerli One';
-font-style: normal;
-font-weight: 400;
-font-size: 27px;
-line-height: 30px;
-color:#000000; 
-}
 
 
 p.flavorscolumn-grid{
@@ -133,16 +115,7 @@ line-height: 16px;
 color:#000000;
 }
 
-.newsletter{
-    font-family: 'Leckerli One';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 27px;
-color:#000000;
-}
-
-.follow{
+.newsletter, .follow{
     font-family: 'Leckerli One';
 font-style: normal;
 font-weight: 400;

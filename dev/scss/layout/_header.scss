@@ -5,15 +5,20 @@ header{
      background-color: rgba(151, 151, 151, 1) ;
     .content{
         display:grid;
-        grid-template-columns: 50% 50% ;
-       .search{
-           size:43.6px 34px;
-           background: color D 2A 2D;
-       }
-        
+        margin: 20px 20px 20px 37px;
     }
 }
 
+input{
+    margin: 20px 20px 20px 20px;
+    inline-size: 55%;
+   border: 0px;
+   border-bottom: 1px solid $lightgrey;
+
+   
+}
 button.search{
     background-color:#D02A2D ;
+    border-radius:10%;
+    
 }

@@ -1,29 +1,38 @@
 .flavorscolumn-grid {
     display:grid;
+    gap: 16px;
+    .banana, .amaretto, .pineapple, .chocolate, .bourbon{
+        background-color: $mutedgrey;
+    }
 
     @include md{
         grid-template-columns: 50% 50%;
         .banana{
+            
             img{
                 width: 100%;
             }
         }
         .amaretto{
+            
             img{
                 width: 100%;
             }
         }
         .pineapple{
+            
             img{
                 width: 100%;
             }
         }
         .chocolate{
+            
             img{
                 width: 100%;
             }
         }
         .bourbon{
+            
             img{
                 width: 100%;
             }
@@ -31,6 +40,7 @@
     }
 @include lg{
 grid-template-columns:33.33% 33.33% 33.33%;
+
 }
 
 }

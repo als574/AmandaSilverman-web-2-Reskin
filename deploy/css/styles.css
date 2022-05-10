@@ -364,6 +364,19 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Leckerli One";
+  margin: 0px;
+}
+
+input {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
 ::placeholder {
   font-family: "Open Sans";
   font-style: normal;
@@ -406,6 +419,8 @@ button {
   font-size: 14px;
   line-height: 20px;
   color: black;
+  /*background-color: $lightred;
+  border: 0px; */
 }
 
 h4 {
@@ -418,45 +433,12 @@ h4 {
 }
 
 /* flavors------*/
-.fl1 {
+.fl1, .fl2, .fl3, .fl4, .fl5 {
   font-family: "Leckerli One";
   font-style: normal;
   font-weight: 400;
   font-size: 27px;
   line-height: 30px;
-}
-
-.fl2 {
-  font-family: "Leckerli One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 27px;
-  line-height: 30px;
-}
-
-.fl3 {
-  font-family: "Leckerli One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 27px;
-  line-height: 30px;
-}
-
-.fl4 {
-  font-family: "Leckerli One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 27px;
-  line-height: 30px;
-}
-
-.fl5 {
-  font-family: "Leckerli One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 27px;
-  line-height: 30px;
-  color: #000000;
 }
 
 p.flavorscolumn-grid {
@@ -494,16 +476,7 @@ p.locations {
   color: #000000;
 }
 
-.newsletter {
-  font-family: "Leckerli One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
-  color: #000000;
-}
-
-.follow {
+.newsletter, .follow {
   font-family: "Leckerli One";
   font-style: normal;
   font-weight: 400;
@@ -544,15 +517,19 @@ header {
 }
 header .content {
   display: grid;
-  grid-template-columns: 50% 50%;
+  margin: 20px 20px 20px 37px;
 }
-header .content .search {
-  size: 43.6px 34px;
-  background: color D 2A 2D;
+
+input {
+  margin: 20px 20px 20px 20px;
+  inline-size: 55%;
+  border: 0px;
+  border-bottom: 1px solid #B1B8BF;
 }
 
 button.search {
   background-color: #D02A2D;
+  border-radius: 10%;
 }
 
 /* =============
@@ -565,6 +542,7 @@ footer .locations {
   display: grid;
   grid-template-columns: "flagship pennslanding fairmount";
   gap: 5px;
+  margin: none;
 }
 footer .newsletter {
   font-family: "Leckerli One";
@@ -581,8 +559,13 @@ footer .social .follow {
   line-height: 27px;
 }
 footer .social .social-links {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  margin: none;
+}
+@media (min-width: 768px) {
+  footer {
+    grid-template-columns: 50% 50%;
+  }
 }
 
 .hero img {
@@ -592,6 +575,10 @@ footer .social .social-links {
 /* menu */
 .menu {
   background: #8C1B1D;
+}
+.menu button {
+  background-color: transparent;
+  border: none;
 }
 .menu .menuh2 {
   font-family: "Leckerli One";
@@ -611,8 +598,15 @@ footer .social .social-links {
 }
 
 /* our history */
+/* add breakpoint grid here--- split into 1 line */
 .history {
+  margin: 0 px;
+  padding-left: 20px;
   background: #D65E60;
+}
+.history button {
+  background-color: transparent;
+  border: none;
 }
 .history .historyh2 {
   font-family: "Leckerli One";
@@ -628,9 +622,21 @@ footer .social .social-links {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  /* color: #FFFFFF; */
+  color: #FFFFFF;
 }
 
+.divider-grid {
+  margin: 0px;
+}
+.divider-grid button {
+  background-color: #D65E60;
+  border: none;
+  margin: 0px;
+  padding: 8px;
+}
+.divider-grid .visitcontainer {
+  background-color: #DDE0E3;
+}
 .divider-grid .visitcontainer .icecream {
   width: 85px;
   height: 85px;
@@ -638,6 +644,9 @@ footer .social .social-links {
   border: 3.81px solid #F8F6E9;
 }
 
+.directionscontainer {
+  background-color: #DDE0E3;
+}
 .directionscontainer .directioncontent .map {
   width: 85px;
   height: 85px;
@@ -647,6 +656,10 @@ footer .social .social-links {
 
 .flavorscolumn-grid {
   display: grid;
+  gap: 16px;
+}
+.flavorscolumn-grid .banana, .flavorscolumn-grid .amaretto, .flavorscolumn-grid .pineapple, .flavorscolumn-grid .chocolate, .flavorscolumn-grid .bourbon {
+  background-color: #DDE0E3;
 }
 @media (min-width: 768px) {
   .flavorscolumn-grid {

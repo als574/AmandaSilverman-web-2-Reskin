@@ -1,11 +1,10 @@
 /* menu */ 
 
 .menu{
-//     position: absolute;
-// left: 0.62%;
-// right: 0%;
-// top: 0%;
-// bottom: 56.96%;
+button{
+    background-color: transparent;
+    border:none;
+}
 
 
 background: #8C1B1D;
@@ -29,16 +28,15 @@ background: #8C1B1D;
 }
 
 /* our history */ 
+/* add breakpoint grid here--- split into 1 line */ 
 .history{
-    // position: absolute;
-    // left: 0%;
-    // right: 0%;
-    // top: 43.04%;
-    // bottom: 0%;
-    
-    
+    margin:0 px;
+    padding-left:20px; 
     background: #D65E60; 
-
+    button{
+        background-color: transparent;
+        border:none;
+    }
     .historyh2{
         font-family: 'Leckerli One';
     font-style: normal;
@@ -55,9 +53,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 20px;
-
-
-/* color: #FFFFFF; */
+color: #FFFFFF; 
 
  
     }
